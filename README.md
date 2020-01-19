@@ -31,22 +31,22 @@ Future iterations of the website will cater to recipes children can make.
 #### Tech stack
 
 ##### Front-end:
-HTML, CSS/SASS
-React - JavaScript library for building user interfaces
-Redux - JavaScript library for managing application state
+- HTML, CSS/SASS
+- React - JavaScript library for building user interfaces
+- Redux - JavaScript library for managing application state
 
 ##### Back-end:
-NodeJS - JavaScript runtime environment
-Express - web application framework for NodeJS
+- NodeJS - JavaScript runtime environment
+- Express - web application framework for NodeJS
 
 ##### Cloud:
-Heroku - cloud deployment platform
-Amazon S3 - object storage service
-MongoDB Atlas - cloud database
+- Heroku - cloud deployment platform
+- Amazon S3 - object storage service
+- MongoDB Atlas - cloud database
 
 ##### Third party/other:
-Auth0 - authentication and authorisation for web applications
-Middleware
+- Auth0 - authentication and authorisation for web applications
+- Middleware
 
 ------
 
@@ -58,7 +58,7 @@ Middleware
 
 #### UX/UI design documentation
 
-Documenting the evolution of project User Stories
+Documenting the evolution of user stories
 
 ##### Brain storming user stories
 ![](./docs/user_story_evolution_1.png)
@@ -77,26 +77,42 @@ Documenting the evolution of project User Stories
 4. Each team member votes on story priority then story complexity
 5. The lowest and highest card value holders explain why they chose their numbers
 6. The team members can change their vote, card numbers are totalled and divided by the number of team members
-7. This number is recorded on the user story and plotted on a grid to determine which tasks should be completed first, second and last.
-8. User stories are delegated to team members based on the below build roadmap
+7. This number is recorded on the user story and plotted on a grid to determine which tasks should be completed first, second and last
+8. User stories are delegated to team members based on their placement on the grid below
 
 ![](./docs/scrum_planning.png)
 
-##### Adding scrum values to user stories
+##### Adding scrum values to user stories during scrum poker
 ![](./docs/user_stories_scrum_example.png)
 
-##### Final User Stories
+##### Final User Stories organised by app features
 ![](./docs/user_stories_kanban_final.png)
 
 #### Wireframes & Mockups
-*Wireframes were created with Balsamiq*
-*Mockups were created with Adobe XD*
+
+- *Wireframes were created with Balsamiq*
+- *Mockups were created with Adobe XD*
 
 [Navigatable Desktop Mockup](https://xd.adobe.com/view/caa39ebc-0746-4846-530d-b68a07023d3e-bc92/?fullscreen&hints=off)
-
 [Navigatable Mobile Mockup](https://xd.adobe.com/view/f49a4364-4b14-4a2a-58aa-d1160b0f5e65-82ab/?fullscreen&hints=off)
+[Homepage](#homepage)
+[Menu](#menu)
+[Login & register](#login)
+[My account](#account)
+[User dashboard](#user)
+[Create recipe](#create)
+[Update recipe](#update)
+[Individual recipe](#recipe)
+[All recipes](#all)
+[Favourite recipes](#favourite)
+[Featured recipes](#feature)
+[Admin dashboard](#admin)
+[Admin page for flagged recipes](#content)
+[Users flagging recipes](#flagged)
+[FAQs page](#faqs)
+[Kids corner holding page](#kids)
 
-## Homepage
+## <a id="homepage"></a> Homepage
 ![](./docs/wireframes_homepage_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_homepage_mobile.jpg)
@@ -105,7 +121,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Menu
+## <a id="menu"></a> Menu
 *Navigation bar on desktop as seen in above mockup*
 ![](./docs/wireframes_menu_mobile.jpg)
 
@@ -113,7 +129,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Login & register
+## <a id="login"></a> Login & register
 ![](./docs/wireframes_login_register_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_login_registration_mobile.jpg)
@@ -122,7 +138,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## My account
+## <a id="account"></a> My account
 ![](./docs/wireframes_my_account_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_delete_my_account_mobile.jpg)
@@ -137,7 +153,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## User dashboard
+## <a id="user"></a> User dashboard
 ![](./docs/wireframes_user_dashboard_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_user_dashboard_mobile.jpg)
@@ -146,7 +162,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Create recipe
+## <a id="create"></a> Create recipe
 ![](./docs/wireframes_create_recipe_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_create_recipe_mobile_1.jpg)
@@ -167,7 +183,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Update recipe
+## <a id="update"></a> Update recipe
 ![](./docs/wireframes_update_recipe_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_update_recipe_mobile_1.jpg)
@@ -188,7 +204,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Individual recipe
+## <a id="recipe"></a> Individual recipe
 ![](./docs/wireframes_individual_recipe_contracted_expanded_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_individual_recipe_condensed_mobile.jpg)
@@ -197,7 +213,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## All recipes
+## <a id="all"></a> All recipes
 ![](./docs/wireframes_all_recipes_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_all_recipes_condensed_mobile.jpg)
@@ -210,7 +226,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Favourite recipes
+## <a id="favourite"></a> Favourite recipes
 ![](./docs/wireframes_favourite_recipes_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_favourite_recipes_mobile.jpg)
@@ -219,7 +235,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Featured recipes
+## <a id="feature"></a> Featured recipes
 ![](./docs/wireframes_featured_recipes_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_featured_recipes_mobile.jpg)
@@ -228,7 +244,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Admin dashboard
+## <a id="admin"></a> Admin dashboard
 ![](./docs/wireframes_admin_dashboard_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_admin_dashboard_mobile.jpg)
@@ -237,8 +253,8 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Admin page for flagged recipes
-![](./docs/wireframes_flagged recipes_mobile_and_desktop.jpg)
+## <a id="content"></a> Admin page for flagged recipes
+![](./docs/wireframes_flagged_recipes_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_admin_flagged_recipes_mobile.jpg)
 
@@ -248,7 +264,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Users flagging recipes
+## <a id="flagged"></a> Users flagging recipes
 ![](./docs/wireframes_flagged_content_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_flagged_recipes_mobile.jpg)
@@ -265,7 +281,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## FAQs page
+## <a id="faqs"></a> FAQs page
 ![](./docs/wireframes_FAQs_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_FAQs_mobile.jpg)
@@ -274,7 +290,7 @@ Documenting the evolution of project User Stories
 
 ------
 
-## Kids corner holding page
+## <a id="kids"></a> Kids corner holding page
 ![](./docs/wireframes_kids_corner_holder_page_mobile_and_desktop.jpg)
 
 ![](./docs/mockup_kids_corner_holder_page_mobile.jpg)
@@ -283,13 +299,13 @@ Documenting the evolution of project User Stories
 
 ------
 
-5. Project planning
+#### Project planning
 
 The project uses a Kanban-style software tool - Trello - to plan, execute and track tasks. The project breaks up tasks by board, list and card. The different project phases were represented on separate Trello boards (below).
 
 ![](./docs/trello_boards_project_planning.png)
 
-Example of our project client board to manage house team communication:
+Example of project client board to manage team communication:
 ![](./docs/trello_clients_board.png)
 
 ------
